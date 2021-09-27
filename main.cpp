@@ -33,6 +33,7 @@ class parking_lot
                 return i+1;
             }
         }
+        return -1;
     }
 
 
@@ -95,8 +96,6 @@ class parking_lot
 };
 int main()
 {
-        // cin>>n;
-        // parking_lot a(n);
         fstream input;
         ofstream output;
         output.open("output.txt");
